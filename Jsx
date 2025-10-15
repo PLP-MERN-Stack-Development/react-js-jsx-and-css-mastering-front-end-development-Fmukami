@@ -1,0 +1,16 @@
+import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout'
+import TaskManager from './pages/TaskManager'
+import ApiList from './pages/ApiList'
+
+export default function App() {
+  return (
+    <Routes>
+      <Route element={<Layout />}>
+        <Route index element={<TaskManager />} />
+        <Route path="/api" element={<ApiList />} />
+      </Route>
+    </Routes>
+  )
+}
