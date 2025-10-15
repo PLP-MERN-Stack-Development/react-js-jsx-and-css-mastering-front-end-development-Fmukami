@@ -1,0 +1,26 @@
+project-root/
+├─ index.html
+├─ package.json
+├─ vite.config.js
+├─ tailwind.config.cjs
+├─ postcss.config.cjs
+├─ src/
+│  ├─ main.jsx
+│  ├─ App.jsx
+│  ├─ index.css
+│  ├─ api/
+│  │  └─ fetchPosts.js
+│  ├─ components/
+│  │  ├─ Button.jsx
+│  │  ├─ Card.jsx
+│  │  ├─ Navbar.jsx
+│  │  ├─ Footer.jsx
+│  │  └─ Layout.jsx
+│  ├─ pages/
+│  │  ├─ TaskManager.jsx
+│  │  └─ ApiList.jsx
+│  ├─ context/
+│  │  └─ ThemeContext.jsx
+│  └─ hooks/
+│     └─ useLocalStorage.js
+└─ README.md
